@@ -117,7 +117,7 @@ docker rm -f pycsw-dev
 Open a console (PowerShell, DockerToolbox, Terminal) and add the following:
 
 ```
-docker run -p 8000:8000 ani18/aahll_pycsw
+docker run -p 8000:8000 ani18/aahll-pycsw
 ```
 
 At the moment, it is not possible to do a transaction. You can only do requests for the saved data in the database. We are working on this problem. 
